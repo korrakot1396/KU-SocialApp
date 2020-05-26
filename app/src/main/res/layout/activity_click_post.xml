@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".ClickPostActivity">
+
+    <include
+        android:id="@+id/edit_page_toolbar"
+        layout="@layout/app_bar_layout"/>
+
+    <ImageView
+        android:id="@+id/click_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/select_image"
+        android:background="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/click_post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="663dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:background="@color/colorWhite"
+        android:hint="คุณกำลังคิดอะไรอยู่"
+        android:padding="20dp"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/edit_post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="แก้ไขโพสต์"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="492dp"
+        android:layout_marginTop="480dp"/>
+
+    <Button
+        android:id="@+id/delete_post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttondelete"
+        android:text="ลบโพสต์"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="557dp"
+        android:layout_marginTop="540dp"/>
+
+
+</RelativeLayout>

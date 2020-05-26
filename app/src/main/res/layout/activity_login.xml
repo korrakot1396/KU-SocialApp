@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login">
+
+
+    <ImageView
+        android:id="@+id/login_icon"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-79dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <EditText
+        android:label="SSS"
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="663dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:hint="อีเมลล์..."
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/login_passwprd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="663dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="รหัสผ่าน..."
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:background="@drawable/button"
+        android:text="เข้าสู่ระบบ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/register_account_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginBottom="50dp"
+        android:ems="10"
+        android:text="หากคุณยังไม่มีบัญชี คุณสามารถสร้างบัญชี?"
+        android:textColor="#E91E63"
+        android:textColorHighlight="#B3B2B2"
+        android:textColorHint="#040303"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="470dp"
+        android:ems="10"
+        android:text="หรือเข้าระบบด้วย"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView2"/>
+
+    <ImageView
+        android:id="@+id/facebook_sigin_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="490dp"
+        android:ems="10"
+        android:src="@drawable/login_with_facebook" />
+
+    <ImageView
+        android:id="@+id/google_signin_button"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="570dp"
+        android:src="@drawable/login_with_google" />
+
+    <TextView
+        android:id="@+id/forget_password_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="645dp"
+        android:text="ลืมรหัสผ่าน"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="155dp"
+        />
+
+</RelativeLayout>

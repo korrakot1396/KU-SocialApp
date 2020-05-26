@@ -1,0 +1,272 @@
+<resources>
+    <string name="app_name">KuSocialApp</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="facebook_app_id">559579914666134</string>
+
+    <string name="fb_login_protocol_scheme">fb559579914666134</string>
+
+
+    <string-array name="gender">
+        <item>-</item>
+        <item>ผู้ชาย</item>
+        <item>ผู้หญิง</item>
+        <item>เพศทางเลือก</item>
+    </string-array>
+
+    <string-array name="relationship">
+        <item>-</item>
+        <item>โสด</item>
+        <item>มีแฟนแล้ว</item>
+    </string-array>
+
+    <string-array name="generation">
+        <item>-</item>
+        <item>KU80</item>
+        <item>KU79</item>
+        <item>KU78</item>
+        <item>KU77</item>
+        <item>KU76</item>
+        <item>KU75</item>
+        <item>KU74</item>
+        <item>KU73</item>
+        <item>KU72</item>
+        <item>KU71</item>
+        <item>KU70</item>
+        <item>KU69</item>
+        <item>KU68</item>
+        <item>KU67</item>
+        <item>KU66</item>
+        <item>KU65</item>
+        <item>KU64</item>
+        <item>KU63</item>
+        <item>KU62</item>
+        <item>KU61</item>
+        <item>KU60</item>
+        <item>KU59</item>
+        <item>KU58</item>
+        <item>KU57</item>
+        <item>KU56</item>
+        <item>KU55</item>
+        <item>KU54</item>
+        <item>KU53</item>
+        <item>KU52</item>
+        <item>KU51</item>
+        <item>KU50</item>
+        <item>KU49</item>
+        <item>KU48</item>
+        <item>KU47</item>
+        <item>KU46</item>
+        <item>KU45</item>
+        <item>KU44</item>
+        <item>KU43</item>
+        <item>KU42</item>
+        <item>KU41</item>
+        <item>KU40</item>
+        <item>KU39</item>
+        <item>KU38</item>
+        <item>KU37</item>
+        <item>KU36</item>
+        <item>KU35</item>
+        <item>KU34</item>
+        <item>KU33</item>
+        <item>KU32</item>
+        <item>KU31</item>
+        <item>KU30</item>
+        <item>KU29</item>
+        <item>KU28</item>
+        <item>KU27</item>
+        <item>KU26</item>
+        <item>KU25</item>
+        <item>KU24</item>
+        <item>KU23</item>
+        <item>KU22</item>
+        <item>KU21</item>
+        <item>KU20</item>
+        <item>KU19</item>
+        <item>KU18</item>
+        <item>KU17</item>
+        <item>KU16</item>
+        <item>KU15</item>
+        <item>KU14</item>
+        <item>KU13</item>
+        <item>KU12</item>
+        <item>KU11</item>
+        <item>KU10</item>
+        <item>KU9</item>
+        <item>KU8</item>
+        <item>KU7</item>
+        <item>KU6</item>
+        <item>KU5</item>
+        <item>KU4</item>
+        <item>KU3</item>
+        <item>KU2</item>
+        <item>KU1</item>
+    </string-array>
+
+    <string-array name="faculty">//parent
+        <item>กรุณาเลือกคณะ</item>
+        <item>เกษตร</item>
+        <item>บริหารธุรกิจ</item>
+        <item>ประมง</item>
+        <item>มนุษยศาสตร์</item>
+        <item>วนศาสตร์</item>
+        <item>วิทยาศาสตร์</item>
+        <item>วิศวกรรมศาสตร์</item>
+        <item>ศึกษาศาสตร์</item>
+        <item>เศรษฐศาสตร์</item>
+        <item>สถาปัตยกรรมศาสตร์</item>
+        <item>สังคมศาสตร์</item>
+        <item>สัตวแพทย์ศาสตร์</item>
+        <item>อุตสาหกรรมการเกษตร</item>
+        <item>เทคนิคการสัตวแพทย์</item>
+        <item>สิ่งแวดล้อม</item>
+    </string-array>
+
+    <string-array name="major_select">
+        <item>กรุณาเลือกสาขาวิชา</item>
+    </string-array>
+
+    <string-array name="faculty_angriculture">//child_position == 0
+        <item>กีฏวิทยา</item>
+        <item>เกษตรกลวิธาน</item>
+        <item>คหกรรมศาสตร์</item>
+        <item>ปฐพีวิทยา</item>
+        <item>พืชไร่นา</item>
+        <item>พืชสวน</item>
+        <item>ภาควิชาโรคพืช</item>
+        <item>ส่งเสริมและนิเทศศาสตร์เกษตร</item>
+        <item>สัตวบาล</item>
+    </string-array>
+
+    <string-array name="faculty_business">//child_position == 1
+        <item>การเงิน</item>
+        <item>การจัดการ</item>
+        <item>การจัดการการผลิต</item>
+        <item>การตลาด</item>
+        <item>บัญชี</item>
+    </string-array>
+
+    <string-array name="faculty_fisheries">//child_position == 2
+        <item>การจัดการประมง</item>
+        <item>ชีววิทยาประมง</item>
+        <item>ผลิตภัณฑ์ประมง</item>
+        <item>เพาะเลี้ยงสัตว์น้ำ</item>
+        <item>วิทยาศาสตร์ทางทะเล</item>
+    </string-array>
+
+    <string-array name="faculty_human">//child_position == 3
+        <item>นิเทศศาสตร์และสารสนเทศศาสตร์</item>
+        <item>ปรัชญาและศาสนา</item>
+        <item>ภาษาต่างประเทศ</item>
+        <item>ภาษาไทย</item>
+        <item>ภาษาศาสตร์</item>
+        <item>วรรณคดี</item>
+        <item>อุตสาหกรรมท่องเที่ยวและบริการ</item>
+        <item>ดนตรี</item>
+        <item>ภาษาตะวันออก</item>
+    </string-array>
+
+    <string-array name="faculty_forest">//child_position == 4
+        <item>การจัดการป่าไม้</item>
+        <item>ชีววิทยาป่าไม้</item>
+        <item>วนผลิตภัณฑ์</item>
+        <item>วนวัฒนวิทยา</item>
+        <item>วิศวกรรมป่าไม้</item>
+        <item>อนุรักษวิทยา</item>
+    </string-array>
+
+    <string-array name="faculty_science">//child_position == 5
+        <item>คณิตศาสตร์</item>
+        <item>เคมี</item>
+        <item>จุลชีววิทยา</item>
+        <item>ชีวเคมี</item>
+        <item>พฤกษศาสตร์</item>
+        <item>พันธุศาสตร์</item>
+        <item>ฟิสิกส์</item>
+        <item>รังสีประยุกต์และไอโซโทป</item>
+        <item>วิทยาการคอมพิวเตอร์</item>
+        <item>วิทยาศาสตร์พื้นพิภพ</item>
+        <item>วัสดุศาสตร์</item>
+        <item>สถิติ</item>
+        <item>สัตววิทยา</item>
+    </string-array>
+
+    <string-array name="faculty_engineer">//child_position == 6
+        <item>วิศวกรรมการบินและอวกาศ</item>
+        <item>วิศวกรรมคอมพิวเตอร์</item>
+        <item>วิศวกรรมเคมี</item>
+        <item>วิศวกรรมเครื่องกล</item>
+        <item>วิศวกรรมทรัพยากรน้ำ</item>
+        <item>วิศวกรรมไฟฟ้า</item>
+        <item>วิศวกรรมวัสดุ</item>
+        <item>วิศวกรรมโยธา</item>
+        <item>วิศวกรรมสิ่งแวดล้อม</item>
+        <item>วิศวกรรมอุตสาหการ</item>
+        <item>วิศวกรรมไฟฟ้าเครื่องกลการผลิต</item>
+    </string-array>
+
+    <string-array name="faculty_education">//child_position == 7
+        <item>การศึกษา</item>
+        <item>จิตวิทยาการศึกษาและการแนะแนว</item>
+        <item>เทคโนโลยีการศึกษา</item>
+        <item>พลศึกษา</item>
+        <item>อาชีวศึกษา</item>
+    </string-array>
+
+    <string-array name="faculty_economic">//child_position == 8
+        <item>เศรษฐศาสตร์</item>
+        <item>เศรษฐศาสตร์เกษตรและทรัพยากร</item>
+        <item>สหกรณ์</item>
+    </string-array>
+
+    <string-array name="faculty_architecture">//child_position == 9
+        <item>สถาปัตยกรรมหลัก</item>
+        <item>วัตกรรมอาคาร</item>
+        <item>ภูมิสถาปัตยกรรม</item>
+    </string-array>
+
+    <string-array name="faculty_social">//child_position == 10
+        <item>จิตวิทยา</item>
+        <item>นิติศาสตร์</item>
+        <item>ประวัติศาสตร์</item>
+        <item>ภูมิศาสตร์</item>
+        <item>รัฐศาสตร์และรัฐประศาสนศาสตร์</item>
+        <item>สังคมวิทยาและมนุษยวิทยา</item>
+    </string-array>
+
+    <string-array name="faculty_veterinary">//child_position == 11
+        <item>กายวิภาคศาสตร์</item>
+        <item>จุลชีววิทยาและวิทยาภูมิคุ้มกัน</item>
+        <item>ปรสิตวิทยา</item>
+        <item>พยาธิวิทยา</item>
+        <item>เภสัชวิทยา</item>
+        <item>เวชศาสตร์คลินิกสัตว์เลี้ยง</item>
+        <item>สรีรวิทยา</item>
+        <item>สัตวแพทยสาธารณสุขศาสตร์</item>
+        <item>เวชศาสตร์และทรัพยากรการผลิตสัตว์</item>
+        <item>เวชศาสตร์คลินิกสัตว์ใหญ่และสัตว์ป่า</item>
+    </string-array>
+
+    <string-array name="faculty_agro_industry">//child_position == 12
+        <item>เทคโนโลยีการบรรจุและวัสดุ</item>
+        <item>เทคโนโลยีชีวภาพ</item>
+        <item>พัฒนาผลิตภัณฑ์</item>
+        <item>วิทยาการสิ่งทอ</item>
+        <item>วิทยาศาสตร์และเทคโนโลยีการอาหาร</item>
+        <item>เทคโนโลยีอุตสาหกรรมเกษตร</item>
+    </string-array>
+
+
+    //login facebook
+    <string-array name="faculty_vettech">//child_position == 13
+        <item>เทคนิคการสัตวแพทย์</item>
+        <item>วิชาการพยาบาลสัตว์</item>
+    </string-array>
+    <string-array name="faculty_environment">//child_position == 14
+        <item>เทคโนโลยีและการจัดการสิ่งแวดล้อม</item>
+        <item>วิทยาศาสตร์สิ่งแวดล้อม</item>
+    </string-array>
+
+</resources>

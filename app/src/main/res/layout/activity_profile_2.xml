@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+<!--    <include android:id="@+id/profile_toolbar"-->
+<!--        layout="@layout/app_bar_layout">-->
+
+<!--    </include>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/register"
+            android:background="@color/green_1"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/my_profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-60dp"
+            android:elevation="5dp"
+            android:src="@drawable/profile" />
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_cover_image"
+            android:background="@color/green_1"
+            android:elevation="4dp"
+            >
+
+            <TextView
+                android:id="@+id/my_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="76dp"
+                android:text="Username"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/my_generation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_username"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="KU 77"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/my_profile_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my_username"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:text="หางานด้าน Web Developer"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="155dp">
+
+
+                //top
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="62dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/green_2"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/count_posts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="10"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"
+                            android:textSize="35sp" />
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center_horizontal"-->
+<!--                            android:textColor="@color/colorWhite"-->
+<!--                            android:text="โพสต์"-->
+<!--                            android:textSize="20sp"/>-->
+
+                        <Button
+                            android:id="@+id/my_post_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/green_2"
+                            android:text="โพสต์"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="62dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:background="@color/green_3">
+
+                        <TextView
+                            android:id="@+id/count_friends"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="10"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"
+                            android:textSize="35sp" />
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center_horizontal"-->
+<!--                            android:textColor="@color/colorWhite"-->
+<!--                            android:text="เพื่อน"-->
+<!--                            android:textSize="20sp"/>-->
+
+
+                        <Button
+                            android:id="@+id/my_friends_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/green_3"
+                            android:text="เพื่อน"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                //under
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_layout"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/my_fullname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/name"
+                android:text="ชื่อ-นามสกุล" />
+
+            <TextView
+                android:id="@+id/my_gender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/gender"
+                android:text="เพศ" />
+
+            <TextView
+                android:id="@+id/my_relationship_status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/relationship"
+                android:text="ความสัมพันธ์" />
+
+            <TextView
+                android:id="@+id/my_major"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/major"
+                android:text="สาขาวิชา" />
+
+            <TextView
+                android:id="@+id/my_faculty"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:drawableLeft="@drawable/education"
+                android:text="คณะ" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

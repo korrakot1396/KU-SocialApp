@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/login">
+
+    <ImageView
+        android:id="@+id/register_icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logoupdate" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/textviewdark"
+        android:text="อีเมลล์"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="663dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:hint="อีเมลล์..."
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/email"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/textviewdark"
+        android:text="รหัสผ่าน"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_passwprd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="663dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:hint="รหัสผ่าน.."
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/textviewdark"
+        android:text="ยืนยันรหัสผ่าน"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/register_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="410dp"
+        android:layout_marginBottom="663dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:hint="ยืนยันรหัสผ่าน..."
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password"/>
+
+    <Button
+        android:id="@+id/register_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:ems="10"
+        android:text="ลงทะเบียน"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button"/>
+</RelativeLayout>

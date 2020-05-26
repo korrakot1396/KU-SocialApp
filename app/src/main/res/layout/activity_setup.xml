@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity"
+    android:background="@drawable/register">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/profile" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/my_profile_image_change"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:elevation="1dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/add_image1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/textviewdark"
+        android:text="ชื่อบัญชีผู้ใช้งาน"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/setup_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:gravity="start|top"
+        android:background="@color/colorWhite"
+        android:hint="ชื่อบัญชี"
+        android:drawableLeft="@drawable/username"
+        android:inputType="textMultiLine"
+        android:padding="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/textviewdark"
+        android:text="ชื่อ-นามสกุล"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/setup_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:background="@color/colorWhite"
+        android:hint="ชื่อ-นาสกุล"
+        android:drawableLeft="@drawable/name"
+        android:inputType="textMultiLine"
+        android:padding="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/textviewdark"
+        android:text="คณะ"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/setup_faculty_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="460dp"-->
+<!--        android:ems="10"-->
+<!--        android:gravity="start|top"-->
+<!--        android:background="@color/colorWhite"-->
+<!--        android:hint="คณะ"-->
+<!--        android:drawableLeft="@drawable/education"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:padding="14dp"/>-->
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/setup_information_faculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="460dp"
+        android:padding="10dp"
+        android:hint="เลือกคณะของคุณ"
+        android:drawableLeft="@drawable/education"
+        android:textSize="10dp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/textviewdark"
+        android:text="สาขาวิชา"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/setup_major_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="550dp"-->
+<!--        android:ems="10"-->
+<!--        android:gravity="start|top"-->
+<!--        android:background="@color/colorWhite"-->
+<!--        android:hint="สาขาวิชา"-->
+<!--        android:drawableLeft="@drawable/major"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:padding="14dp"/>-->
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/setup_information_major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="550dp"
+        android:padding="10dp"
+        android:hint="เลือกภาควิชาของคุณ"
+        android:drawableLeft="@drawable/education"
+        android:textSize="10dp"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <Button
+        android:id="@+id/setup_information_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
+        android:text="บันทึกข้อมูล"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+
+
+
+</RelativeLayout>
