@@ -1,5 +1,5 @@
 # KU-SocialApp
-
+![](https://github.com/korrakot1396/KU-SocialApp/logo.png)
 # สมาชิกในกลุ่ม
 | รหัสนิสิต  | ชื่อ  | github username |
 | ------------ | ------------ | ------------ | 
