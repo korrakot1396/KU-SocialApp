@@ -7,7 +7,7 @@
 
 ## ขั้นตอนการติดตั้งโปรเจค
 1. clone โปรเจคมาจาก github 
-2. เปิดโปรแกรม android studio
+2. เปิดโปรแกรม Android Studio
 3. กดแถบเมนู File -> New -> Import Project..
 4. เลือก Folder ที่ได้ทำการ clone มาจาก github 
 5. กดแถบเมนู Run app หรือ Shift+F10
