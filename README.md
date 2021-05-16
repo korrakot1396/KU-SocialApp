@@ -1,5 +1,5 @@
 # KU-SocialApp
-![](https://github.com/korrakot1396/KU-SocialApp/blob/master/app/src/main/res/drawable/logo-mini.png)
+![](https://github.com/korrakot1396/Share-Travel-Expenses/blob/main/assets/images/logo_app.png)
 # สมาชิกในกลุ่ม
 | รหัสนิสิต  | ชื่อ  | github username |
 | ------------ | ------------ | ------------ | 
